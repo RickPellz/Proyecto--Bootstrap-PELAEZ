@@ -1,0 +1,21 @@
+
+body {
+    padding: 5px 30px 0px 30px;
+    margin: 5px 30px 0px 30px;
+    display: grid;
+    grid-gap: 7px;
+}
+.card-group {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 7px;
+    min-height: 100vh;
+    text-align: center;
+    div:hover {
+        border: 1px solid rgb(20, 20, 18);
+        }
+}
+    .grid div{
+        background:#ecf0f1; 
+    }
+

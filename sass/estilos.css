@@ -1,0 +1,26 @@
+body {
+  padding: 5px 30px 0px 30px;
+  margin: 5px 30px 0px 30px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 7px;
+}
+
+.card-group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  grid-gap: 7px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.card-group div:hover {
+  border: 1px solid #141412;
+}
+
+.grid div {
+  background: #ecf0f1;
+}
+/*# sourceMappingURL=estilos.css.map */
