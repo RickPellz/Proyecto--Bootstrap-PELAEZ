@@ -5,40 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="sass/estilos.css">
-    <title>CONTACTO</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="imagenes/favicon-16x16.png">
+    <title>Rick, Viajes y Futbol</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">HOME</a>
-      <a class="navbar-brand" href="America.html">AMERICA</a>
-      <a class="navbar-brand" href="Europa.html">EUROPA</a>
-      <a class="navbar-brand" href="RestodelMundo.html">RESTO DEL MUNDO</a>
-      <a class="navbar-brand" href="Contacto.html">CONTACTO</a>
-      <div class="offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"></div>
-      </div>
-  </nav>
-
-
+          <!--menu-->
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">HOME</a>
+          <a class="navbar-brand" href="America.html">AMERICA</a>
+          <a class="navbar-brand" href="Europa.html">EUROPA</a>
+          <a class="navbar-brand" href="RestodelMundo.html">RESTO DEL MUNDO</a>
+          <a class="navbar-brand" href="Contacto.html">CONTACTO</a>
+          <div class="offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"></div>
+          </div>
+      </nav>
 
       <div class="card mb-3">
-        <img src="imagenes/portadaTokio.jpg" class="card-img-top" alt="...">
+        <img src="imagenes/portadaTokio.jpg" class="card-img-top" alt="tori japones">
         <div class="card-body">
           <h5 class="card-title"></h5>
           <p class="card-text"></p>
-          <p class="card-text"><small class="text-muted">Contactanos</small></p>
         </div>
       </div>
-
+        <!--formulario-->
       <form class="row g-3">
         <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <label for="inputEmail4" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="inputname">
         </div>
         <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
+          <label for="inputPassword4" class="form-label">Apellidos</label>
+          <input type="password" class="form-control" id="inputlastname">
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Direccion</label>
@@ -58,7 +57,7 @@
           </select>
         </div>
         <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
+          <label for="inputZip" class="form-label">C.P.</label>
           <input type="text" class="form-control" id="inputZip">
         </div>
         <div class="col-12">
