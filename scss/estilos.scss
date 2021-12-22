@@ -17,5 +17,61 @@ body {
     .grid div{
         background:#e9ece3; 
     }
-
+.pie-pagina {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    .grupo-1 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0;
+        .box figure{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 200px; 
+            }
+            
+        }
+        .box h2{
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        .box p{
+            color: #efefef;
+            margin-bottom: 10px;
+        } 
+        .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: grey;
+        text-align: center;
+        transition: all 300ms ease;
+        &:hover{
+            color: aqua;
+        }
+        }
+    }
+.grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    p{
+        font-size: 15px;
+    }
+}    
+}
     
