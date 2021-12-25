@@ -3,40 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="viaje, viajera, vajero, viajeros, trip, travel, travels, traveling, wanderlust, contacto, viajar por el mundo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" sizes="16x16"  href="imagenes/favicon-16x16.png">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <title>Rick, Viajes y Futbol</title>
+    <title>Rick, Viajes y Fútbol</title>
 </head>
 <body>
+<main>
         <!--MENU-->
-          <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="imagenes/tickets.png" alt="" width="80"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="America.html">AMERICA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Europa.html">EUROPA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="restodelMundo.html">RESTO DEL MUNDO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Contacto.html">CONTACTO</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark p-md-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="imagenes/tickets.png" alt="logo principal" width="80"></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="mx-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="America.html">AMERICA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="Europa.html">EUROPA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="restodelMundo.html">RESTO DEL MUNDO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="Contacto.html">CONTACTO</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
-      <div class="card mb-3">
+    <article> 
+      <section class="card mb-3">
         <img src="imagenes/portadaTokio.jpg" class="card-img-top" alt="tori japones">
         <div class="card-body">
           <h5 class="card-title"></h5>
-          <p class="card-text"></p>
+          <p class="card-text"><b>"Viajar te hace modesto. Te hace ver el pequeño lugar que ocupas en el mundo".</b>  Gustave Flaubert</p>
         </div>
-      </div>
-        <!--formulario-->
+      </section>
+        <!---------formulario------------>
       <form class="row g-3">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Nombres</label>
@@ -79,15 +99,13 @@
           <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
       </form>
-      <!--footer-->
-      <footer class="pie-pagina bg-dark">
+
+    </article>
+      <!----------footer------------>
+    <footer class="pie-pagina bg-dark">
         <div class="grupo-1">
             <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="imagenes/tickets.png" alt="Logo fly tickets">
-                    </a>
-                </figure>
+                <figure><a href="#"><img src="imagenes/tickets.png" alt="Logo fly tickets"></a></figure>
             </div>
             <div class="box">
                 <h2>SOBRE NOSOTROS</h2>
@@ -99,15 +117,16 @@
                 <div class="red-social">
                     <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
                     <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
-                    <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
                     <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+                    <a href="https://www.github.com/" target="_blank" class="fa fa-github"></a>
                 </div>
             </div>
-            </div>
+        </div>
             <div class="grupo-2 bg-dark">
                 <p> &copy; 2021 <b>Rick, Viajes y Fútbol</b> - Todos los Derechos Reservados.</p>
             </div>
-      </footer>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </footer>      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</main>  
 </body>
 </html>
