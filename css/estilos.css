@@ -3,31 +3,28 @@ body {
   padding: 0;
   display: -ms-grid;
   display: grid;
-  grid-gap: 3px;
+  grid-gap: 2px;
 }
 
 .card-border{
-  border: solid 1px grey;
   overflow: hidden;
   transition: all ease-out 0.2s;
 
 }
 .card-border:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .text-shadow{
-  text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-}
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+} 
 
 .card-group:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .pie-pagina{
   width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 .pie-pagina .grupo-1{
   width: 100%;
