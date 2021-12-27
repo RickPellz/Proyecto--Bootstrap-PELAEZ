@@ -6,6 +6,8 @@ body {
 }
 
 .card-border{
+  margin-top: 10px;
+  margin-bottom: 30px;
   overflow: hidden;
   transition: all ease-out 0.2s;
 }
@@ -71,8 +73,6 @@ body {
 .pie-pagina .grupo-2 p{
   font-size: 15px;
 }
-
-
 
 /* imagen de fondo en CONTACTO y formulario*/
 
