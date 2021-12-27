@@ -1,15 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  display: -ms-grid;
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 3px;
 }
 
 .card-border{
   overflow: hidden;
   transition: all ease-out 0.2s;
-
 }
 .card-border:hover{
   transform: scale(1.01);
@@ -18,10 +16,6 @@ body {
 .text-shadow{
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
 } 
-
-.card-group:hover{
-  transform: scale(1.01);
-}
 
 .pie-pagina{
   width: 100%;
@@ -78,4 +72,39 @@ body {
   font-size: 15px;
 }
 
+
+
+/* imagen de fondo en CONTACTO y formulario*/
+
+.formulario{
+  background-image: url(../imagenes/portadaTokio.jpeg);  
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-size: cover;  
+  background-color: white;
+  }
+
+  .formulario form{
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.formulario form button,
+.formulario form input,
+.formulario form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid black;
+}
 
