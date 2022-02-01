@@ -64,7 +64,7 @@ label.wel {
   color: #212121;
   font-weight: 600;
   margin-bottom: 50px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   text-align: center;
 } 
 
@@ -87,108 +87,12 @@ label.wel {
   background-color: #0f0e0f;
 }
 
-section {
-  padding: 3rem 1rem;
-}
-
-.link-btn {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  background: #ff5421;
-  color: #fff;
-  cursor: pointer;
-  border-radius: .5rem;
-  font-size: 1.3rem;
-  text-transform: capitalize;
-}
-
-.link-btn:hover {
-  background: #fff;
-  color: #ff5421;
-}
-
-.heading {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.heading span {
-  font-size: 2.5rem;
-  color: #ff5421;
-}
-
-.heading h3 {
-  font-size: 3.8rem;
-  text-transform: capitalize;
-  color: rgb(255, 255, 255);
-}
-
-.courses .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
-}
-
-.courses .box-container .box:hover .image img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.courses .box-container .box .image {
-  height: 25rem;
-  overflow: hidden;
-}
-
-.courses .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.courses .box-container .box .content {
-  padding: 2rem;
-}
-
-.courses .box-container .box .content .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-bottom: 1rem;
-}
-
-.courses .box-container .box .content .icons span {
-  font-size: 1.7rem;
-  text-transform: capitalize;
-  color: rgb(255, 255, 255);
-}
-
-.courses .box-container .box .content .icons span i {
-  color: #ff5421;
-  padding-right: .5rem;
-}
-
-.courses .box-container .box .content h3 {
-  font-size: 2.5rem;
-  text-transform: capitalize;
-  color: rgb(255, 255, 255);
-  padding: .5rem 0;
-}
 /* acaba el experimento aqui */
 
 /* linea dorada*/
 label.dorado {
   background: #a79c0a;
-  width: 550px;
+  width: 300px;
   height: 3px;
   display: block;
   margin: 0 auto 50px;
@@ -201,67 +105,10 @@ label.dorado {
   margin-bottom: 100px;
   transition: all ease-out 0.2s;
 }
-.card-border:hover{
-  transform: scale(1.01);
-}
+
 /*card 3 aqui termina*/
 
-/*footer*/
-.pie-pagina{
-  width: 100%;
-}
-.pie-pagina .grupo-1{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap:50px;
-  padding: 45px 0px;
-}
-.pie-pagina .grupo-1 .box figure{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pie-pagina .grupo-1 .box figure img{
-  width: 200px;
-}
-.pie-pagina .grupo-1 .box h2{
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 20px;
-}
-.pie-pagina .grupo-1 .box p{
-  color: #efefef;
-  margin-bottom: 10px;
-}
-.pie-pagina .grupo-1 .red-social a{
-  display: inline-block;
-  text-decoration: none;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: grey;
-  text-align: center;
-  transition: all 300ms ease;
-}
-.pie-pagina .grupo-1 .red-social a:hover{
-  color: aqua;
-}
-.pie-pagina .grupo-2{
-  padding: 15px 10px;
-  text-align: center;
-  color: #fff;
-}
-.pie-pagina .grupo-2 p{
-  font-size: 15px;
-}
-/* footer termina aqui*/
+
 
 /* imagen de fondo en CONTACTO y formulario*/
 .formulario{
@@ -296,12 +143,6 @@ label.dorado {
     border-bottom: 1px solid black;
 }
 
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-}
 
 
 
@@ -363,56 +204,7 @@ a:link {
   color: #fff;
 }
 
-/* Service box 
 
-.ts-service-box .ts-service-icon i {
-  font-size: 24px;
-  float: left;
-  color: #fff;
-  background: $color-primary;
-  border-radius: 100%;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-}
-
-.ts-service-box .ts-service-box-content {
-  margin-left: 80px;
-  margin-bottom: 30px;
-}
-
-.tab-content .ts-service-box .ts-service-box-content {
-  margin-left: 90px;
-}
-
-.ts-service-box .ts-service-box-content h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-}
-
-.ts-service-box .ts-service-box-info {
-  margin-left: 90px;
-  margin-bottom: 40px;
-}
-
-.service-box-title {
-  font-size: 18px;
-  margin: 0 0 10px;
-}
-
-.service-box-title a {
-  color: #333;
-}
-
-.service-box-title a:hover {
-  color: $color-primary;
-}
-
-.service-center-img {
-  padding: 0 20px;
-}
-*/
 /* Icon squre */
 .ts-service-icon.icon-round i {
   font-size: 24px;
@@ -516,7 +308,68 @@ a:link {
   background: #ffb600;
 }
 
+/*footer*//*
+.pie-pagina{
+  width: 100%;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 200px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: grey;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2{
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 p{
+  font-size: 15px;
+}
+*/
+/* footer termina aqui*/
 
-
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
